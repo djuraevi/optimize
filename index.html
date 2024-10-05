@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header container">
+        <h2 class="title">logo</h2>
+        <div class="header__wrapper">
+            <nav class="nav">
+                <ul class="nav__items">
+                    <li class="nav__item-wrapper">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 6H21" stroke="#FF2E4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8 12H21" stroke="#FF2E4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M8 18H21" stroke="#FF2E4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3 6H3.01" stroke="#FF2E4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3 12H3.01" stroke="#FF2E4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3 18H3.01" stroke="#FF2E4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        <p class="nav__item">Все предложения</p>
+                    </li>
+                    <li class="nav__item">Скидки</li>
+                    <li class="nav__item">Акции</li>
+                    <li class="nav__item">Промокоды</li>
+                    <li class="nav__item">Кешбэк</li>
+                </ul>
+            </nav>
+            <ul class="header__tools"> 
+                <li class="header__tool">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.8333 22.1667C17.988 22.1667 22.1667 17.988 22.1667 12.8333C22.1667 7.67868 17.988 3.5 12.8333 3.5C7.67868 3.5 3.5 7.67868 3.5 12.8333C3.5 17.988 7.67868 22.1667 12.8333 22.1667Z" stroke="#248888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M24.5001 24.5001L19.4834 19.4834" stroke="#248888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+                <li class="header__tool">
+                    <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 0.602225L15.9946 16.2923C15.9946 16.2923 15.5741 17.3801 14.4189 16.8584L7.48458 11.3526L7.45242 11.3364C8.38909 10.4654 15.6524 3.70266 15.9698 3.39612C16.4613 2.92136 16.1562 2.63873 15.5856 2.99736L4.85679 10.053L0.717638 8.61077C0.717638 8.61077 0.0662573 8.37083 0.00359284 7.84911C-0.0598962 7.32653 0.739076 7.0439 0.739076 7.0439L17.6131 0.188948C17.6131 0.188948 19 -0.44207 19 0.602225Z" fill="#001C1C" />
+                    </svg>
+                </li>
+                <li class="header__tool">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 33C13.9999 31.4603 14.4441 29.9533 15.2793 28.6598C16.1146 27.3664 17.3053 26.3414 18.7086 25.708C20.1119 25.0745 21.6682 24.8595 23.1908 25.0886C24.7133 25.3178 26.1373 25.9815 27.292 27" stroke="#001C1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M22 25C24.7614 25 27 22.7614 27 20C27 17.2386 24.7614 15 22 15C19.2386 15 17 17.2386 17 20C17 22.7614 19.2386 25 22 25Z" stroke="#001C1C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M31 28V34" stroke="#FF2E4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M34 31H28" stroke="#FF2E4C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+                <li class="header__tool nav__item">Ру</li>
+                <li class="header__tool burger_menu">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="48" height="48" rx="8" fill="white" />
+                        <path d="M35 24H13" stroke="#248888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M35 16H13" stroke="#248888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M35 32H13" stroke="#248888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+            </ul>
+            <button class="btn btn-red">Добавить скидку</button>
+        
+        </div>
+
+    </header>
+
+    <div class="content-container container">
+        <aside class="discounts-day__wrapper">
+            <div class="discounts-day__info">
+                <h2 class="title">Скидки дня</h2>
+                <p class="discounts-day__offers"></p>
+            </div>
+            <div class="discounts-day">
+    
+            </div>
+            
+            <button class="btn btn-white">Показать все</button>
+          
+        </aside>
+    
+        <main class="content">
+            <div class="top-discounts">
+                <h2 class="top-discounts__title title">Топовые скидки</h2>
+                <div class="border"></div>
+                <nav class="second-swiper">
+                    <ul class="baner__nav">
+                        <li class="top-discounts__list">Питание</li>
+                        <li class="top-discounts__list">Связь</li>
+                        <li class="top-discounts__list">Магазины</li>
+                    </ul>
+                </nav>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper top-discounts__cards">
+    
+                    </div>
+                    <div class="custom-next-arrow"></div>
+                    <div class="custom-prev-arrow"></div>
+                    <div class="swiper-pagination">
+                    </div>
+                </div>
+       
+            </div>
+            <section class="welcome__seciton">
+                <h3 class="welcome__title">Добро пожаловать на сайт</h3>
+                <div class="welcome__body">
+                    <p class="welcome__tagline">Ваш надёжный помощник в поиске лучших скидок и акций различных компаний!</p>
+                    <p class="welcome__info">Мы собрали для вас все самые выгодные предложения, чтобы вы могли сэкономить свои деньги и получить максимум удовольствия от покупок.</p>
+                    <p class="welcome__expand">Развернуть текст</p>
+                </div>
+    
+            </section>
+            
+            
+            <div class="faq">
+                <h2 class="faq__title title">FAQ</h2>
+                <div class="faq__wrapper">
+                    <div class="faq__container">
+                        <div class="faq__header">
+                            <p>Какие компании представлены на сайте?</p>
+                            <div class="faq__show-btn">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 16H32" stroke="#BEDADA" stroke-width="2" />
+                                    <path d="M16 32L16 -5.96046e-07" stroke="#BEDADA" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="faq__answer" hidden>
+                            <p>Чтобы быть в курсе новых скидок и акций на сайте, вы можете подписаться на наш <a href="#">телеграм-канал</a> или следить за новостями.
+                                Мы регулярно отправляем информацию о новых предложениях и акциях нашим подписчикам, чтобы они всегда могли быть в курсе последних скидок и эксклюзивных предложений.
+                                Также можно регулярно посещать сайт и проверять разделы с акциями и скидками</p>
+                        </div>
+                        
+                     </div>
+                    <div class="faq__container">
+                        <div class="faq__header">
+                            <p>Как я могу быть в курсе новых скидок и акций на сайте?</p>
+                            <div class="faq__show-btn">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 16H32" stroke="#BEDADA" stroke-width="2" />
+                                    <path d="M16 32L16 -5.96046e-07" stroke="#BEDADA" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="faq__answer" hidden>
+                            <p>Чтобы быть в курсе новых скидок и акций на сайте, вы можете подписаться на наш <a href="#">телеграм-канал</a> или следить за новостями.
+                                Мы регулярно отправляем информацию о новых предложениях и акциях нашим подписчикам, чтобы они всегда могли быть в курсе последних скидок и эксклюзивных предложений.
+                                Также можно регулярно посещать сайт и проверять разделы с акциями и скидками</p>
+                        </div>
+        
+                    </div>
+                    <div class="faq__container">
+                        <div class="faq__header">
+                            <p>Могу ли я поделиться найденными скидками и акциями с друзьями?</p>
+                            <div class="faq__show-btn">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 16H32" stroke="#BEDADA" stroke-width="2" />
+                                    <path d="M16 32L16 -5.96046e-07" stroke="#BEDADA" stroke-width="2" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="faq__answer" hidden>
+                            <p>Чтобы быть в курсе новых скидок и акций на сайте, вы можете подписаться на наш <a href="#">телеграм-канал</a> или следить за новостями.
+                                Мы регулярно отправляем информацию о новых предложениях и акциях нашим подписчикам, чтобы они всегда могли быть в курсе последних скидок и эксклюзивных предложений.
+                                Также можно регулярно посещать сайт и проверять разделы с акциями и скидками</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+               
+        </main>
+
+    </div>
+
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

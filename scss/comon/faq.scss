@@ -1,0 +1,58 @@
+.faq{
+    margin-top: 60px;
+    &__title{
+        color: #023131;
+    }
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    &__container{
+        border-bottom: 1px solid #bedada;
+        min-height: 57px;
+        height: 100%;
+        padding: 25px 0;
+    }
+    &__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        cursor: pointer;
+        &:hover{
+            svg path{
+                stroke: #FF2E4C;
+            }
+        }
+        & p {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            color: #023131;
+        }
+    }
+    &__show-btn {
+        transition: transform 0.3s ease;
+    }
+
+
+
+    &__answer{
+        padding-top: 15px;
+        & p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 150%;
+            color: #3c5858;
+        }
+        & a {
+            text-decoration: none;
+            color: #ff2e4c;
+        }
+    }
+ 
+}
+
+.rotated {
+    transform: rotate(45deg);
+}
